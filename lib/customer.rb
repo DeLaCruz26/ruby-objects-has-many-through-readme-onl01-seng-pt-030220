@@ -15,7 +15,10 @@ attr_accessor :name, :age
   end
 
   def new_meal(waiter, total, tip=0)
-    Meal .new(waiter, self, total, tip)
+    Meal.new(waiter, self, total, tip)
   end
+
+  def meals
+    Meal.all
 
 end
