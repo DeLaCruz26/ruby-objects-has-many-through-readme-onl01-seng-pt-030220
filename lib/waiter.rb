@@ -26,6 +26,6 @@ attr_accessor :name, :yrs_experience
 
   def best_tipper
     best_tipped_meal = meals.max do |meal|
-      
+
 
 end
