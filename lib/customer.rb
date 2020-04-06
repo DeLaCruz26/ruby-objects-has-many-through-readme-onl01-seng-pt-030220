@@ -12,4 +12,5 @@ attr_accessor :name, :age
   def self.all
     @@all
   end
+  
 end
