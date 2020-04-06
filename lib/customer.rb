@@ -19,6 +19,9 @@ attr_accessor :name, :age
   end
 
   def meals
-    Meal.all
+    Meal.all.select do |meal|
+      meal.customer == self
+    end
+  end
 
 end
