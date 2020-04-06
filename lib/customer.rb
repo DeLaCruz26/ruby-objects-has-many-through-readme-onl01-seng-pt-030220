@@ -14,4 +14,8 @@ attr_accessor :name, :age
     @@all
   end
 
+  def new_meal
+    
+  end
+
 end
