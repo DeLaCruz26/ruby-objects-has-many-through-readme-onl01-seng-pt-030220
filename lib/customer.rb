@@ -8,4 +8,5 @@ attr_accessor :name, :age
     @name = name
     @age = age
   end
+  
 end
