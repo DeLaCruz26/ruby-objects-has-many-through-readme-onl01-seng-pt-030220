@@ -14,8 +14,8 @@ attr_accessor :name, :age
     @@all
   end
 
-  def new_meal
-    
+  def new_meal(waiter, total, tip=0)
+
   end
 
 end
